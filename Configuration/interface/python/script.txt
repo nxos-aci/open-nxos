@@ -57,7 +57,7 @@ if __name__=="__main__":
 
                         #set Description
                         if interfaceDescription:
-                          description=switch.set_description(interfaceDescription)
+                                description=switch.set_description(interfaceDescription)
 
                         #set mode and state
                         switch.set_state(interfaceState)
